@@ -1,0 +1,108 @@
+body
+{
+	margin: 0;
+	padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+figure
+{
+	margin: 0;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1080px;
+    margin: auto;
+    height: 60px;
+    align-content: center;
+}
+
+.navbar ul
+{
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-content: space-between;
+	grid-gap: 30px;
+	list-style: none;
+}
+
+header
+{
+	    background:#7ACC2D;
+}
+
+.navbar ul.lista li a
+{
+	color: #313337;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.message
+{
+	margin: auto;
+    margin-top: auto;
+	max-width: 733px;
+	font-size: 30px;
+	text-align: center;
+	line-height: 41px;
+	font-weight: 800;
+	margin-top: 10%;
+	margin-bottom: 20%;
+}
+
+.fondo
+{
+    background-image: url(../images/curve.png);
+    height: 340px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.shop
+{
+	display: grid;
+    grid-template-columns: auto auto;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    grid-gap: 70px;
+}
+
+.product
+{
+	background:#ffffff;
+	margin-top: -200px;
+	padding: 25px;
+}
+
+div.product button
+{
+	background:#7ACC2D;
+	border: none;
+	padding: 10px 30px;
+	font-size: 17px;
+	color:
+	white;
+	font-weight: 500;
+}
+
+.second
+{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	max-width: 1200px;
+	margin: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-top: 20%;
+	text-align: center;
+	grid-gap: 150px;
+	align-content: center;
+	margin-bottom: 20%;
+}
