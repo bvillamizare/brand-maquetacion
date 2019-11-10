@@ -178,6 +178,97 @@ footer p.email
 	grid-column-start: 3;
 }
 
+/*page products*/
+
+.subcontainer
+{
+	max-width: 1000px;
+	margin: auto;
+	margin-bottom: 10%;
+	padding: 0 20px;
+}
+.grid-productos
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 100px;
+}
+
+.grid-productos img
+{
+	max-width: 100%;
+	width: 100%;
+}
+
+.primero
+{
+	grid-column: span 2;
+	align-self: center;
+}
+
+.titel
+{
+	max-width: 1200px;
+	margin: auto;
+	margin-bottom: 5%;
+}
+
+.imagen1
+{
+	grid-area: imagen1;
+}
+
+.imagen2
+{
+	grid-area: imagen2;
+}
+
+.imagen3
+{
+	grid-area: imagen3;
+}
+
+.texto1
+{
+	grid-area: texto1;
+}
+
+.texto2
+{
+	grid-area: texto2;
+}
+
+.texto3
+{
+	grid-area: texto3;
+}
+
+.grid-form
+{
+	display: grid;
+	max-width: 650px;
+	margin: auto;
+	grid-template-columns: 40% 60%;
+	margin: 20% 0;
+}
+
+.grid-form img
+{
+	max-width: 100%;
+	width: 100%;
+}
+
+.centrar
+{
+	max-width: 650px;
+	margin: auto;
+}
+
+.seccion2
+{
+	display: grid;
+}
+
 @media screen and (max-width: 1050px)
 {
 	.second
@@ -208,6 +299,28 @@ footer p.email
 	.section-testimonials
 	{
 		grid-template-columns: 1fr;
+	}
+}
+
+@media screen and (max-width: 768px)
+{
+		.grid-productos
+	{
+		grid-template-areas: "imagen1"
+							"texto1"
+							"imagen2"
+							"texto2"
+							"imagen3"
+							"texto3";
+		grid-gap: 10px;
+		grid-template-columns: 1fr;
+		grid-row-gap: 50px;
+	}
+
+		.primero
+	{
+		grid-column: span 1;
+		align-self: center;
 	}
 }
 
