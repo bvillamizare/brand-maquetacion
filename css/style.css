@@ -191,7 +191,9 @@ footer p.email
 {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 100px;
+	grid-template-areas: "imagen1 texto1 texto1"
+							"texto2 texto2 imagen2"
+							"imagen3 texto3 texto3";
 }
 
 .grid-productos img
@@ -267,6 +269,12 @@ footer p.email
 .seccion2
 {
 	display: grid;
+}
+
+.grid-productos img
+{
+	width: 100%;
+	max-width: 100%;
 }
 
 @media screen and (max-width: 1050px)
